@@ -7,7 +7,7 @@ apicache.options({
     headers: {
         // Disable client side cache, only server side cache.
         // BUG! Not working for the second request
-        "cache-control": "no-cache",
+        "cache-control": "http://example.com/",
     },
 });
 
